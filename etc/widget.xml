@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:widget_schema.xsd">
+    <widget id="your_widget_id" class="Snowfoot\ImageTextOverlay\Block\Widget\ImageTextOverlayWidget" placeholder_image="Snowfoot_ImageTextOverlay::images/placeholder.png" required_parameters="image_path,text,button_text,button_url">
+        <label translate="true">Your Widget</label>
+        <description translate="true">Add an overlay text on a picture with a link button to a Magento page.</description>
+        <parameters>
+            <parameter name="image_path" xsi:type="text" required="true" visible="true">
+                <label translate="true">Image Path</label>
+            </parameter>
+            <parameter name="text" xsi:type="text" required="true" visible="true">
+                <label translate="true">Overlay Text</label>
+            </parameter>
+            <parameter name="button_text" xsi:type="text" required="true" visible="true">
+                <label translate="true">Button Text</label>
+            </parameter>
+            <parameter name="button_url" xsi:type="text" required="true" visible="true">
+                <label translate="true">Button URL</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
